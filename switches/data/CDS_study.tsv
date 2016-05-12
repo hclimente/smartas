@@ -1,0 +1,12 @@
+Cancer	Analysis	Both	Only_nIso	Only_tIso	None	Random_Both	Random_Only_nIso	Random_Only_tIso	Random_None
+brca	CDS_study	1512.0	144.0	51.0	37.0	1451.0	205.0	49.0	39.0
+coad	CDS_study	1382.0	130.0	31.0	40.0	1333.0	184.0	41.0	25.0
+hnsc	CDS_study	2614.0	303.0	46.0	47.0	2559.0	349.0	60.0	42.0
+kich	CDS_study	2241.0	256.0	48.0	53.0	2181.0	291.0	71.0	55.0
+kirc	CDS_study	2212.0	283.0	45.0	57.0	2159.0	323.0	67.0	48.0
+kirp	CDS_study	3548.0	449.0	74.0	100.0	3499.0	482.0	87.0	103.0
+lihc	CDS_study	642.0	70.0	21.0	13.0	624.0	80.0	26.0	16.0
+luad	CDS_study	1641.0	167.0	45.0	30.0	1569.0	219.0	53.0	42.0
+lusc	CDS_study	1929.0	181.0	59.0	57.0	1837.0	289.0	51.0	49.0
+prad	CDS_study	1547.0	203.0	32.0	20.0	1498.0	216.0	47.0	41.0
+thca	CDS_study	901.0	93.0	19.0	24.0	869.0	120.0	22.0	26.0
