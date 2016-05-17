@@ -1,0 +1,4 @@
+05-10 11:34 root         INFO     SmartAS - Finding significant AS events
+05-10 11:34 root         INFO     Hector Climente - GRIB 2014-2015
+05-10 11:34 utils        DEBUG    /soft/R/R-3.2.3/bin/Rscript pipeline/methods/pancancer_calculate_switches.R
+05-10 11:35 root         INFO     SmartAS will close.
