@@ -1,5 +1,5 @@
-05-10 11:37 root         INFO     SmartAS - Finding significant AS events
-05-10 11:37 root         INFO     Hector Climente - GRIB 2014-2015
-05-10 11:37 utils        DEBUG    mkdir -p /data/users/hector/smartas/analyses/pancancer/mutations
-05-10 11:37 utils        DEBUG    /soft/R/R-3.2.3/bin/Rscript pipeline/methods/pancancer_mutual_exclusion_analysis.R
-05-10 11:38 root         INFO     SmartAS will close.
+05-18 18:57 root         INFO     SmartAS - Finding significant AS events
+05-18 18:57 root         INFO     Hector Climente - GRIB 2014-2015
+05-18 18:57 utils        DEBUG    mkdir -p /data/users/hector/smartas/analyses/pancancer/mutations
+05-18 18:57 utils        DEBUG    /soft/R/R-3.2.3/bin/Rscript pipeline/methods/pancancer_mutual_exclusion_analysis.R
+05-18 19:00 root         INFO     SmartAS will close.

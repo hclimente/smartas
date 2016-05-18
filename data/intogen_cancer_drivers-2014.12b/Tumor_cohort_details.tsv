@@ -1,0 +1,59 @@
+#Datasets of somatic mutations employed in the analysis to detect drivers
+#
+##Tumor_type
+##Tumor_type_description
+##Tumor_project
+##Project_source
+##Downloaded = where downloaded. Alexandrov: Dataset of mutations downloaded from the webserver established by the Alexandrov et al., paper (Alexandrov et al., 2013) ; Synapse: TCGA dataset downloaded from Synapse, ids syn1710431 and syn300013.; ICGC: Dataset downloaded from the ICGC Data Coordination Center; SM: Dataset obtained from a table in the Supplementary Material of a paper
+##Sample_size
+##Source
+###
+Tumor_type	Tumor_type_description	Tumor_project	Project_source	Downloaded	Sample_size	Source
+ALL	Acute lymphoblastic leukemia	ALL_LEU	Leuven University	Alexandrov	29	ref doi:10.1038_ng.2508
+ALL	Acute lymphoblastic leukemia	ALL_MEM	Memphis Hospital	Alexandrov	38	ref doi:10.1038_ng.2532
+ALL	Acute lymphoblastic leukemia	ALL_WTSI	Sanger Institute 	Alexandrov	55	ref Alexandrov
+BLCA	Bladder carcinoma	BLCA_TCGA	The Cancer Genome Atlas	Synaptic	98	Ref doi: 10.1038/nature12965
+BRCA	Breast carcinoma	BRCA_JH	Johns Hopkins	ICGC	42	ref PMID:17932254
+BRCA	Breast carcinoma	BRCA_WTSI	Sanger Institute	ICGC	100	Ref PMID: 22722201
+BRCA	Breast carcinoma	BRCA_BROAD	Broad Institute	SM	103	Ref PMID: 22722202
+BRCA	Breast carcinoma	BRCA_TCGA	The Cancer Genome Atlas	Synapse	762	Ref doi:10.1038/nature11412
+BRCA	Breast carcinoma	BRCA_WU	Washington University	SM	76	Ref PMID: 22722193
+BRCA	Breast carcinoma	BRCA_BCU	British Columbia University	SM	65	ref PMID: 22495314
+CLL	Chronic lymphocytic leukemia	CLL_ICGC	MICINN ES	Alexandrov	131	ref PMID:21642962
+CLL	Chronic lymphocytic leukemia	CLL_DFCI	Dana Farber Cancer Institute	SM	159	Cell . 2013 February 14; 152(4): 714–726. doi:10.1016/j.cell.2013.01.019
+COREAD	Colorectal adenocarcinoma	CO_JH	Johns Hopkins	ICGC	36	ref PMID:17932254
+COREAD	Colorectal adenocarcinoma	COADREAD_TCGA	The Cancer Genome Atlas	Synapse	193	Ref doi:10.1038/nature11252
+DLBC	Difuse large B cell lymphoma	DLBCL_WTSI	Sanger Institute 	Alexandrov	23	ref Alexandrov
+ESCA	Esophageal carcinoma	ESCA_DFCI	Dana Farber Cancer Institute	Alexandrov	146	Ref doi:10.1038_ng.2591
+GBM	Glioblastoma multiforme	GBM_JH	Johns Hopkins	ICGC	89	Ref PMID: 18772396
+GBM	Glioblastoma multiforme	GBM_TCGA	The Cancer Genome Atlas	Synapse	290	Ref doi: 10.1038/nature07385
+HNSC	Head and neck squamous cell carcinoma	HNSC_BROAD	Broad Institute	SM	74	ref PMID 21798893
+HNSC	Head and neck squamous cell carcinoma	HNSC_TCGA	The Cancer Genome Atlas	Synapse	301	
+RCCC	Renal clear cell carcinoma	KIRC_TCGA	The Cancer Genome Atlas	Synapse	417	Ref doi:10.1038/nature12222
+AML	Acute myeloid leukemia	LAML_TCGA	The Cancer Genome Atlas	Synapse	196	Ref doi: 10.1056/NEJMoa1301689
+LGG	Lower grade glioma	LGG_TCGA	The Cancer Genome Atlas	Synapse	169	
+HC	Hepatocarcinoma	LIHC_ICGC	International Cancer Genome Consortium	Alexandrov	66	ref Alexandrov
+HC	Hepatocarcinoma	LIHC_IACR	International Agency for Cancer Research	ICGC	24	Ref PMID:22561517
+LUAD	Lung adenocarcinoma	LUAD_WU	Washington University	SM	163	Ref PMID: 18948947
+LUAD	Lung adenocarcinoma	LUAD_TCGA	The Cancer Genome Atlas	Synapse	228	
+LUSC	Lung squamous cell carcinoma	LUSC_TCGA	The Cancer Genome Atlas	Synapse	174	Ref doi:10.1038/nature11404
+MB	Medulloblastoma	MB_WTSI	Sanger Institute 	Alexandrov	100	ref Alexandrov
+MB	Medulloblastoma	MB_DKFZ	German Cancer Research Centre	ICGC	110	Ref PMID:22265402
+MM	Multiple myeloma	MM_WTSI	Sanger Institute 	Alexandrov	69	ref Alexandrov
+NB	Neuroblastoma	NB_BROAD	Broad Institute	Alexandrov	210	Ref doi:10.1038_ng.2529
+NSCLC	Non small cell lung carcinoma	NSCLC_WMC	Wisconsin medical college	SM	31	ref PMID:22510280
+OV	Serous ovarian adenocarcinoma	OV_TCGA	The Cancer Genome Atlas	Synapse	316	Ref doi:10.1038/nature10166
+PA	Pylocytic astrocytoma	PA_WTSI	Sanger Institute	Alexandrov	63	ref Alexandrov
+PA	Pylocytic astrocytoma	PA_SJ	St. Jude Hospital	Alexandrov	38	Ref: doi:10.1038_ng.2611
+PAAD	Pancreatic adenocarcinoma	PAAD_JH	Johns Hopkins	ICGC	114	ref PMID: 18772397
+PAAD	Pancreatic adenocarcinoma	PAAD_OICR	Ontario Institute for Cancer Research	ICGC	33	ref
+PAAD	Pancreatic adenocarcinoma	PAAD_QCMG	Queensland Centre for Genome Medicine	ICGC	67	Ref PMID: 21436628
+PRAD	Prostate adenocarcinoma	PRAD_TCGA	The Cancer Genome Atlas	Synapse	243	
+SCLC	Small cell lung carcinoma	SCLC_JH	Johns Hopkins	SM	42	ref PMID: 22941189
+SCLC	Small cell lung carcinoma	SCLC_UC	University of Cologne	SM	27	ref PMID:22941188
+CM	Cutaneous melanoma	SKCM_BROAD	Broad Institute	Alexandrov	120	Refs doi:10.1016_j.cell.2012.06.024; doi:10.1038_nature11071
+CM	Cutaneous melanoma	SKCM_TCGA	The Cancer Genome Atlas	Synapse	249	
+STAD	Stomach adenocarcinoma	STAD_PFS	Pfizer	SM	22	ref PMID: 22037554
+STAD	Stomach adenocarcinoma	STAD_TCGA	The Cancer Genome Atlas	Synapse	139	
+THCA	Thyroid carcinoma	THCA_TCGA	The Cancer Genome Atlas	Synapse	322	
+UCEC	Uterine corpus endometrioid carcinoma	UCEC_TCGA	The Cancer Genome Atlas	Synapse	230	

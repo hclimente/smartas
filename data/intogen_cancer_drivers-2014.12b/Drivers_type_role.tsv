@@ -1,0 +1,506 @@
+#List of 475 drivers. driver type and its role in cancer
+#
+##geneHGNCsymbol
+##Driver_type = whether it is a mutational driver (MUTATION). a CNA driver (CNA) or a fusion driver (FUSION) 
+##Role = Between Activating. Loss of function or No class. Retrieved from OncodriveROLE for mutational drivers. Remaining driver role was established through coherent manual annotation.
+##OncodriveROLE_prob = OncodriveROLE results for 459 mutational drivers
+###
+geneHGNCsymbol	Driver_type	Role	OncodriveROLE_prob
+ABL1	FUSION	Activating	N/A
+ABL2	MUTATION	Activating	0.811
+ACACA	MUTATION	Activating	0.7815
+ACAD8	MUTATION	Activating	0.734
+ACO1	MUTATION	Loss of function	0.254
+ACSL3	MUTATION	No class	N/A
+ACSL6	MUTATION	Loss of function	0.0455
+ACTB	MUTATION	Activating	0.8405
+ACTG1	MUTATION	Activating	0.927
+ACTG2	MUTATION	Activating	0.769
+ACVR1B	MUTATION	Loss of function	0.187
+ACVR2A	MUTATION	Loss of function	0.012
+ADAM10	MUTATION	Activating	0.7845
+ADCY1	MUTATION	Activating	0.872
+AFF4	MUTATION	No class	0.682
+AHCTF1	MUTATION	No class	0.565
+AHNAK	MUTATION	Activating	0.956
+AHR	MUTATION	Activating	0.876
+AKAP9	MUTATION	No class	0.4245
+AKT1	MUTATION	Activating	0.9945
+AKT3	FUSION	Activating	N/A
+ALK	MUTATION	Activating	0.966
+ALK	FUSION	Activating	0.966
+ANK3	MUTATION	Activating	0.881
+APAF1	MUTATION	Loss of function	0.0095
+APC	MUTATION	Loss of function	5.00E-004
+AQR	MUTATION	Activating	0.7445
+ARAP3	MUTATION	Loss of function	0.0195
+ARFGAP1	MUTATION	No class	0.4275
+ARFGAP3	MUTATION	Loss of function	0.012
+ARFGEF1	MUTATION	No class	N/A
+ARFGEF2	MUTATION	Activating	0.862
+ARHGAP26	MUTATION	Loss of function	0.05
+ARHGAP29	MUTATION	No class	N/A
+ARHGAP35	MUTATION	Loss of function	5.00E-004
+ARHGEF2	MUTATION	Activating	0.7575
+ARHGEF6	MUTATION	Loss of function	0.214
+ARID1A	MUTATION	Loss of function	5.00E-004
+ARID1B	MUTATION	Loss of function	0.02
+ARID2	MUTATION	Loss of function	0.0185
+ARID4A	MUTATION	No class	N/A
+ARID4B	MUTATION	Loss of function	0.173
+ARID5B	MUTATION	Loss of function	0.082
+ARNTL	MUTATION	Loss of function	0.0785
+ASH1L	MUTATION	Activating	0.9625
+ASPM	MUTATION	Activating	0.95
+ASXL1	MUTATION	Loss of function	0.1055
+ATF1	MUTATION	No class	0.622
+ATIC	MUTATION	Loss of function	0.0305
+ATM	MUTATION	Loss of function	0
+ATP6AP2	MUTATION	Loss of function	0.0415
+ATR	MUTATION	No class	0.386
+ATRX	MUTATION	Loss of function	0.0015
+AURKA	CNA	A	N/A
+AXIN1	MUTATION	Loss of function	0.172
+AXIN2	MUTATION	Loss of function	0.265
+B2M	MUTATION	Loss of function	0.032
+BAP1	MUTATION	Loss of function	0.0015
+BAP1	CNA	Loss of function	0.0015
+BAZ2B	MUTATION	Activating	0.909
+BCL11A	MUTATION	Activating	0.939
+BCLAF1	MUTATION	Activating	0.9105
+BCOR	MUTATION	Loss of function	0.0225
+BLM	MUTATION	No class	0.3155
+BMPR2	MUTATION	Loss of function	0.0405
+BNC2	MUTATION	Loss of function	0.0515
+BPTF	MUTATION	Activating	0.937
+BRAF	MUTATION	Activating	0.9995
+BRCA1	MUTATION	Loss of function	0.0045
+BRCA1	CNA	Loss of function	0.0045
+BRCA2	MUTATION	Loss of function	0.0415
+BRCA2	CNA	Loss of function	0.0415
+BRWD1	MUTATION	Activating	0.926
+C15orf55	MUTATION	No class	0.698
+CAD	MUTATION	Activating	0.8805
+CAPN7	MUTATION	No class	0.354
+CARM1	MUTATION	Activating	0.83
+CASP1	MUTATION	Loss of function	0.031
+CASP8	MUTATION	Loss of function	0.011
+CAST	MUTATION	Loss of function	0.0135
+CAT	MUTATION	Activating	0.836
+CBFB	MUTATION	Loss of function	0.0055
+CCAR1	MUTATION	Loss of function	0.012
+CCND1	MUTATION	Activating	0.9595
+CCND2	CNA	A	N/A
+CCND3	CNA	A	N/A
+CCNE1	CNA	A	N/A
+CCT5	MUTATION	Activating	0.8805
+CDC27	MUTATION	Loss of function	0.0445
+CDC73	MUTATION	No class	0.5795
+CDH1	MUTATION	Loss of function	0.0035
+CDK12	MUTATION	Loss of function	0.089
+CDK4	MUTATION	No class	N/A
+CDK4	CNA	A	N/A
+CDK6	CNA	A	N/A
+CDKN1A	MUTATION	Loss of function	0.043
+CDKN1B	MUTATION	Loss of function	0.0515
+CDKN1B	CNA	Loss of function	0.0515
+CDKN2A	MUTATION	Loss of function	0.0315
+CDKN2A	CNA	Loss of function	0.0315
+CDKN2B	CNA	Loss of function	N/A
+CEBPA	MUTATION	Loss of function	0.1245
+CEP290	MUTATION	Loss of function	0.1625
+CHD1L	MUTATION	No class	0.658
+CHD3	MUTATION	Loss of function	0.2125
+CHD4	MUTATION	Activating	0.9665
+CHD6	MUTATION	Activating	0.973
+CHD8	MUTATION	Loss of function	0.048
+CHD9	MUTATION	Activating	0.7155
+CHEK2	MUTATION	Loss of function	0.2895
+CIC	MUTATION	Loss of function	0.079
+CIITA	MUTATION	No class	0.6355
+CLASP2	MUTATION	Loss of function	0.198
+CLCC1	MUTATION	Activating	0.7855
+CLOCK	MUTATION	Loss of function	0.126
+CLSPN	MUTATION	Loss of function	0.116
+CLTC	MUTATION	Activating	0.8705
+CNOT1	MUTATION	Loss of function	0.0965
+CNOT3	MUTATION	Activating	0.9095
+CNOT4	MUTATION	No class	0.5875
+CNTNAP1	MUTATION	No class	0.6955
+COL1A1	MUTATION	Activating	0.977
+COPS2	MUTATION	Loss of function	0.0355
+CREBBP	MUTATION	Loss of function	0.043
+CRNKL1	MUTATION	Activating	0.8775
+CRTC3	MUTATION	No class	N/A
+CSDA	MUTATION	Activating	0.8635
+CSDE1	MUTATION	Loss of function	0.245
+CSNK1G3	MUTATION	Loss of function	0.0235
+CSNK2A1	MUTATION	Loss of function	0.1625
+CTCF	MUTATION	Loss of function	0.007
+CTNNB1	MUTATION	Activating	0.982
+CTNND1	MUTATION	Loss of function	0.015
+CTTN	MUTATION	Activating	0.876
+CUL1	MUTATION	Loss of function	0.213
+CUL2	MUTATION	Loss of function	0.207
+CUL3	MUTATION	Loss of function	0.1075
+CUX1	MUTATION	No class	0.4385
+CYLD	MUTATION	Loss of function	0.035
+CYTH4	MUTATION	No class	N/A
+DDX3X	MUTATION	Loss of function	0.1495
+DDX5	MUTATION	Loss of function	0.126
+DEPDC1B	MUTATION	Loss of function	0.059
+DHX15	MUTATION	Loss of function	0.0075
+DHX35	MUTATION	Activating	0.8525
+DHX9	MUTATION	Activating	0.928
+DICER1	MUTATION	Loss of function	0.0705
+DIS3	MUTATION	Activating	0.8525
+DLG1	MUTATION	Activating	0.8765
+DNMT3A	MUTATION	Loss of function	0.1995
+EEF1A1	MUTATION	Loss of function	0.1925
+EEF1B2	MUTATION	Activating	0.8225
+EFTUD2	MUTATION	No class	0.679
+EGFR	MUTATION	Activating	0.999
+EGFR	CNA	A	0.999
+EIF1AX	MUTATION	Loss of function	0.194
+EIF2AK3	MUTATION	Loss of function	0.038
+EIF2C3	MUTATION	Activating	0.881
+EIF4A2	MUTATION	Activating	0.836
+EIF4G1	MUTATION	Activating	0.8765
+EIF4G3	MUTATION	Activating	0.763
+ELF1	MUTATION	Loss of function	0.0395
+ELF3	MUTATION	Loss of function	0.039
+ELF4	MUTATION	Activating	0.8745
+EP300	MUTATION	Loss of function	0.0085
+EPC1	MUTATION	No class	N/A
+EPHA1	MUTATION	Activating	0.9545
+EPHA2	MUTATION	Loss of function	0.089
+EPHA4	MUTATION	No class	0.696
+EPHB2	MUTATION	Activating	0.849
+ERBB2	MUTATION	No class	N/A
+ERBB2	CNA	A	N/A
+ERBB2IP	MUTATION	Loss of function	0.2055
+ERBB3	MUTATION	Activating	0.995
+ERCC2	MUTATION	Activating	0.9525
+EZH2	MUTATION	Loss of function	0.179
+F8	MUTATION	Activating	0.796
+FAF1	MUTATION	Loss of function	0.0145
+FAM123B	MUTATION	Loss of function	0.05
+FAM46C	MUTATION	No class	N/A
+FANCI	MUTATION	No class	N/A
+FAS	MUTATION	Loss of function	0.0895
+FAT1	MUTATION	Loss of function	0.01
+FAT2	MUTATION	Activating	0.7365
+FBXO11	MUTATION	No class	N/A
+FBXW7	MUTATION	Loss of function	0.0335
+FBXW7	CNA	Loss of function	0.0335
+FCRL4	MUTATION	No class	N/A
+FGFR1	MUTATION	No class	N/A
+FGFR1	CNA	A	N/A
+FGFR2	MUTATION	Activating	0.9965
+FGFR2	CNA	A	0.9965
+FGFR3	MUTATION	Activating	0.8115
+FGFR3	CNA	A	0.8115
+FGFR3	FUSION	Activating	0.8115
+FIP1L1	MUTATION	Activating	0.932
+FKBP5	MUTATION	Activating	0.9305
+FLT3	MUTATION	Activating	0.952
+FMR1	MUTATION	Loss of function	0.1195
+FN1	MUTATION	Loss of function	0.104
+FOXA1	MUTATION	Loss of function	0.1645
+FOXA2	MUTATION	Loss of function	0.14
+FOXP1	MUTATION	Loss of function	0.0035
+FRG1	MUTATION	Loss of function	0.046
+FUBP1	MUTATION	Loss of function	0.0195
+FUS	MUTATION	Loss of function	0.021
+FXR1	MUTATION	Loss of function	0.1815
+G3BP1	MUTATION	No class	0.685
+G3BP2	MUTATION	Activating	0.882
+GATA3	MUTATION	Loss of function	0.012
+GNA11	MUTATION	Activating	0.8415
+GNAI1	MUTATION	Loss of function	0.069
+GNAS	MUTATION	Activating	0.9755
+GNG2	MUTATION	Loss of function	0.0205
+GOLGA5	MUTATION	No class	0.596
+GPS2	MUTATION	Loss of function	0.012
+GPSM2	MUTATION	Loss of function	0.1075
+HCFC1	MUTATION	Activating	0.837
+HDAC3	MUTATION	Loss of function	0.028
+HDAC9	MUTATION	Activating	0.9045
+HGF	MUTATION	No class	0.4255
+HLA-A	MUTATION	Loss of function	0.003
+HLA-B	MUTATION	Loss of function	0.0645
+HLF	MUTATION	Activating	0.8865
+HNF1A	MUTATION	Activating	0.723
+HNRPDL	MUTATION	Loss of function	0.0195
+HRAS	MUTATION	Activating	0.922
+HSP90AA1	MUTATION	Activating	0.886
+HSP90AB1	MUTATION	Loss of function	0.081
+HSPA8	MUTATION	Activating	0.768
+IDH1	MUTATION	Activating	0.995
+IDH2	MUTATION	Activating	0.9945
+IGF1R	CNA	A	N/A
+ING1	MUTATION	Loss of function	0.011
+INPP4A	MUTATION	Loss of function	0.09
+INPPL1	MUTATION	Loss of function	0.093
+IREB2	MUTATION	Activating	0.848
+IRF2	MUTATION	Loss of function	0.0555
+IRF6	MUTATION	No class	N/A
+IRF7	MUTATION	Activating	0.807
+IRS2	MUTATION	Loss of function	0.02
+ITGA9	MUTATION	Activating	0.9665
+ITSN1	MUTATION	Loss of function	0.2875
+JMY	MUTATION	No class	N/A
+KALRN	MUTATION	Activating	0.884
+KAT6B	MUTATION	Activating	0.8325
+KDM5C	MUTATION	Loss of function	0.137
+KDM6A	MUTATION	Loss of function	0.0095
+KDR	MUTATION	Activating	0.8465
+KEAP1	MUTATION	Loss of function	Manually curated
+KIT	MUTATION	Activating	0.979
+KLF4	MUTATION	No class	0.686
+KLF6	MUTATION	Loss of function	0.15
+KRAS	MUTATION	Activating	0.9995
+LAMA2	MUTATION	Loss of function	0.09
+LCP1	MUTATION	Loss of function	0.014
+LDHA	MUTATION	Loss of function	0.229
+LIMA1	MUTATION	Loss of function	0.178
+LNPEP	MUTATION	No class	N/A
+LPHN2	MUTATION	Activating	0.7335
+LRP6	MUTATION	Activating	0.927
+LRPPRC	MUTATION	Loss of function	0.101
+MACF1	MUTATION	Activating	0.976
+MAGI2	MUTATION	No class	N/A
+MAP2K1	MUTATION	Activating	0.972
+MAP2K4	MUTATION	Loss of function	0.0225
+MAP3K1	MUTATION	Loss of function	0.01
+MAP3K11	MUTATION	No class	N/A
+MAP3K4	MUTATION	Activating	0.7045
+MAP4K1	MUTATION	No class	N/A
+MAP4K3	MUTATION	Loss of function	0.055
+MAT2A	MUTATION	No class	N/A
+MAX	MUTATION	Activating	0.724
+MCM3	MUTATION	Activating	0.832
+MCM8	MUTATION	Activating	0.932
+MDM2	CNA	A	N/A
+MDM4	CNA	A	N/A
+MECOM	MUTATION	Activating	0.968
+MED12	MUTATION	Activating	0.9265
+MED17	MUTATION	Activating	0.8765
+MED23	MUTATION	Loss of function	0.0195
+MED24	MUTATION	No class	0.4115
+MEF2C	MUTATION	Activating	0.8515
+MEN1	MUTATION	Loss of function	0.0285
+MET	MUTATION	Activating	0.9655
+MET	CNA	A	0.9655
+MFNG	MUTATION	Activating	0.927
+MGA	MUTATION	Loss of function	0.032
+MGMT	MUTATION	Activating	0.708
+MKL1	MUTATION	Activating	0.706
+MLH1	MUTATION	Loss of function	0.0335
+MLH3	MUTATION	Loss of function	0.2095
+MLL	MUTATION	Loss of function	5.00E-004
+MLL	FUSION	Activating	5.00E-004
+MLL2	MUTATION	Loss of function	0.0115
+MLL3	MUTATION	Loss of function	0.018
+MLLT4	MUTATION	Loss of function	0.05
+MMP2	MUTATION	Activating	0.7735
+MNDA	MUTATION	No class	N/A
+MSR1	MUTATION	Loss of function	0.1325
+MTOR	MUTATION	Activating	0.9545
+MUC20	MUTATION	Loss of function	0.2965
+MYB	MUTATION	Loss of function	0.2695
+MYC	MUTATION	No class	N/A
+MYCN	MUTATION	No class	N/A
+MYD88	MUTATION	No class	N/A
+MYH10	MUTATION	Activating	0.7425
+MYH11	MUTATION	Activating	0.856
+MYH14	MUTATION	Activating	0.89
+MYH9	MUTATION	No class	0.693
+NAP1L1	MUTATION	Loss of function	0.227
+NCF2	MUTATION	No class	0.57
+NCK1	MUTATION	Activating	0.862
+NCKAP1	MUTATION	Loss of function	0.2985
+NCOR1	MUTATION	Loss of function	0.008
+NCOR2	MUTATION	Activating	0.9035
+NDRG1	MUTATION	Activating	0.877
+NEDD4L	MUTATION	Activating	0.8445
+NF1	MUTATION	Loss of function	0
+NF1	CNA	Loss of function	0
+NF2	MUTATION	Loss of function	0.0415
+NF2	CNA	Loss of function	0.0415
+NFATC4	MUTATION	Loss of function	0.1735
+NFE2L2	MUTATION	Activating	0.985
+NKX3-1	MUTATION	Activating	0.8265
+NOTCH1	MUTATION	Loss of function	0.0575
+NOTCH2	MUTATION	Loss of function	0.672
+NPM1	MUTATION	Loss of function	0.041
+NR2F2	MUTATION	Activating	0.8885
+NR4A2	MUTATION	Loss of function	0.191
+NRAS	MUTATION	Activating	0.9965
+NSD1	MUTATION	Loss of function	0.0015
+NTN4	MUTATION	Activating	0.783
+NTRK1	FUSION	Activating	N/A
+NTRK2	MUTATION	Activating	0.708
+NTRK3	FUSION	Activating	N/A
+NUP107	MUTATION	Activating	0.877
+NUP93	MUTATION	Loss of function	0.057
+NUP98	MUTATION	Activating	0.7165
+PABPC1	MUTATION	No class	0.359
+PABPC3	MUTATION	No class	0.338
+PAX5	MUTATION	Activating	0.966
+PBRM1	MUTATION	Loss of function	0.0025
+PCBP1	MUTATION	Activating	0.9665
+PCDH18	MUTATION	Activating	0.8215
+PCSK5	MUTATION	No class	N/A
+PCSK6	MUTATION	Activating	0.888
+PER1	MUTATION	No class	N/A
+PGR	MUTATION	Activating	0.918
+PHF6	MUTATION	Loss of function	0.0205
+PIK3C2B	MUTATION	No class	N/A
+PIK3CA	MUTATION	Activating	0.999
+PIK3CB	MUTATION	No class	0.5845
+PIK3R1	MUTATION	Loss of function	0.0215
+PIK3R3	MUTATION	Activating	0.919
+PIP5K1A	MUTATION	No class	0.547
+PLCB1	MUTATION	Activating	0.983
+PLCG1	MUTATION	Activating	0.9805
+PLXNA1	MUTATION	Activating	0.835
+PLXNB2	MUTATION	Activating	0.7205
+POLR2B	MUTATION	Activating	0.865
+POM121	MUTATION	Activating	0.913
+PPM1D	MUTATION	Loss of function	0.091
+PPP2R1A	MUTATION	Activating	0.895
+PPP2R5A	MUTATION	Loss of function	0.048
+PPP2R5C	MUTATION	Activating	0.966
+PPP6C	MUTATION	Loss of function	0.147
+PRKAR1A	MUTATION	Loss of function	0.0595
+PRKCZ	MUTATION	No class	N/A
+PRPF8	MUTATION	Activating	0.713
+PRRX1	MUTATION	Activating	0.9445
+PSIP1	MUTATION	Loss of function	0.02
+PSMA6	MUTATION	No class	0.4425
+PSMD11	MUTATION	Loss of function	0.221
+PSME3	MUTATION	Loss of function	0.0235
+PTCH1	MUTATION	No class	N/A
+PTEN	MUTATION	Loss of function	0.01
+PTEN	CNA	Loss of function	0.01
+PTGS1	MUTATION	Loss of function	0.0635
+PTPN11	MUTATION	Activating	0.958
+PTPRF	MUTATION	Activating	0.945
+PTPRU	MUTATION	Activating	0.735
+RAC1	MUTATION	Activating	0.8875
+RAD21	MUTATION	Loss of function	0.286
+RAD23B	MUTATION	Loss of function	0.1235
+RAF1	FUSION	Activating	N/A
+RASA1	MUTATION	Loss of function	0.0085
+RASA2	MUTATION	Loss of function	0.1265
+RASGRP1	MUTATION	No class	0.6715
+RB1	MUTATION	Loss of function	5.00E-004
+RBBP7	MUTATION	Activating	0.886
+RBM10	MUTATION	Loss of function	0.087
+RBM5	MUTATION	Loss of function	0.0315
+RET	FUSION	Activating	N/A
+RFC4	MUTATION	Activating	0.8465
+RGS3	MUTATION	No class	0.6595
+RHEB	MUTATION	Activating	0.886
+RHOA	MUTATION	Activating	0.7335
+RHOT1	MUTATION	No class	N/A
+ROBO2	MUTATION	Activating	0.769
+ROS1	FUSION	Activating	N/A
+RPGR	MUTATION	Loss of function	0.221
+RPL22	MUTATION	Loss of function	0.089
+RPL5	MUTATION	Loss of function	0.059
+RPSAP58	MUTATION	Activating	0.995
+RTN4	MUTATION	Loss of function	0.1965
+RUNX1	MUTATION	Loss of function	0.0015
+SCAI	MUTATION	Activating	0.8805
+SEC24D	MUTATION	Loss of function	0.0175
+SEC31A	MUTATION	Loss of function	0.05
+SETD2	MUTATION	Loss of function	0
+SETDB1	MUTATION	Activating	0.967
+SF3A3	MUTATION	Loss of function	0.09
+SF3B1	MUTATION	Activating	0.9435
+SFPQ	MUTATION	Loss of function	0.0455
+SH2B3	MUTATION	No class	N/A
+SHMT1	MUTATION	No class	0.658
+SIN3A	MUTATION	Activating	0.752
+SMAD2	MUTATION	Loss of function	5.00E-004
+SMAD4	MUTATION	Loss of function	0.016
+SMARCA1	MUTATION	Loss of function	0.014
+SMARCA4	MUTATION	Loss of function	0.2845
+SMARCA4	CNA	Loss of function	0.2845
+SMARCB1	MUTATION	Loss of function	0.0155
+SMARCB1	CNA	Loss of function	0.0155
+SMC1A	MUTATION	Activating	0.8855
+SMO	MUTATION	No class	N/A
+SMURF2	MUTATION	No class	N/A
+SOS1	MUTATION	Activating	0.7365
+SOS2	MUTATION	Activating	0.8565
+SOX17	MUTATION	Activating	0.881
+SOX9	MUTATION	Loss of function	0.0655
+SPOP	MUTATION	No class	0.6705
+SPRR3	MUTATION	Activating	0.8715
+SPTAN1	MUTATION	Loss of function	0.053
+SRGAP1	MUTATION	Activating	0.9505
+SRGAP3	MUTATION	Activating	0.8975
+STAG1	MUTATION	Activating	0.751
+STAG2	MUTATION	Loss of function	0.069
+STARD13	MUTATION	Activating	0.8725
+STIP1	MUTATION	Loss of function	0.032
+STK11	MUTATION	Loss of function	0.0025
+STK11	CNA	Loss of function	0.0025
+STK4	MUTATION	No class	0.401
+SUZ12	MUTATION	Loss of function	0.003
+SVEP1	MUTATION	No class	0.7
+SYK	MUTATION	No class	N/A
+SYNCRIP	MUTATION	No class	0.396
+TAF1	MUTATION	Activating	0.9135
+TAOK1	MUTATION	No class	0.577
+TAOK2	MUTATION	Activating	0.8385
+TBL1XR1	MUTATION	Loss of function	0.127
+TBX3	MUTATION	Loss of function	0.058
+TCF12	MUTATION	Loss of function	0
+TCF4	MUTATION	Activating	0.7465
+TCF7L2	MUTATION	Loss of function	0.013
+TET2	MUTATION	Loss of function	0.0075
+TFDP1	MUTATION	Activating	0.922
+TFDP2	MUTATION	Loss of function	0.123
+TGFBR2	MUTATION	Loss of function	0.0345
+THRAP3	MUTATION	Loss of function	0.2725
+TJP1	MUTATION	Loss of function	0.009
+TJP2	MUTATION	Activating	0.7255
+TNPO1	MUTATION	No class	0.694
+TNPO2	MUTATION	No class	0.3715
+TOM1	MUTATION	Loss of function	0.2215
+TP53	MUTATION	Loss of function	0.007
+TP53	CNA	Loss of function	0.007
+TP53BP1	MUTATION	Loss of function	0.119
+TRERF1	MUTATION	Activating	0.9335
+TRIO	MUTATION	Activating	0.963
+TRIP10	MUTATION	Activating	0.7605
+TSC1	MUTATION	Loss of function	0
+TXNIP	MUTATION	Activating	0.881
+U2AF1	MUTATION	Activating	0.933
+UPF3B	MUTATION	Loss of function	0.1295
+USP6	MUTATION	No class	N/A
+VHL	MUTATION	Loss of function	0.0105
+VIM	MUTATION	No class	N/A
+WASF3	MUTATION	No class	N/A
+WHSC1	MUTATION	No class	0.6785
+WHSC1L1	MUTATION	Loss of function	0.218
+WIPF1	MUTATION	Activating	0.836
+WNK1	MUTATION	No class	N/A
+WNT5A	MUTATION	Activating	0.7185
+WT1	MUTATION	Loss of function	0.062
+XPO1	MUTATION	No class	N/A
+XRN1	MUTATION	No class	0.388
+YBX1	MUTATION	Activating	0.8715
+ZC3H11A	MUTATION	No class	0.3245
+ZFHX3	MUTATION	Loss of function	0.01
+ZFP36L1	MUTATION	Loss of function	0.0455
+ZFP36L2	MUTATION	Loss of function	0.0055
+ZMYM2	MUTATION	Loss of function	0.201
+ZNF292	MUTATION	Loss of function	0.205
+ZNF638	MUTATION	No class	N/A
+ZNF750	MUTATION	Loss of function	0.0945
+ZNF814	MUTATION	Activating	0.904
