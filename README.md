@@ -2,7 +2,7 @@
 
 ## Switches
 
-* [Stats](switches_stats.ipynb)
+* [Stats](switches/switches_stats.ipynb)
 * [Functionality](functionals.ipynb)
 * [Potential tumorigenic switches](potus.ipynb)
 
