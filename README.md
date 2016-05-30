@@ -14,5 +14,5 @@
 
 ## Structure
 
-* [Pfam domains](strucutral_analysis/pfam_switches.ipynb)
-* [ProSite features](strucutral_analysis/prosite_switches.ipynb)
+* [Pfam domains](structural_analysis/pfam_switches.ipynb)
+* [ProSite features](structural_analysis/prosite_switches.ipynb)
