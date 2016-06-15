@@ -1,0 +1,27 @@
+###################################################################################################################################################################
+#Enrichment results using 'Biological Process from Gene Ontology (GO)', created by dcGO Enrichment at 30/05/2016 16:56:24 (day/month/year hour:min:sec)
+#Citation: Fang H, Gough J. (2012) dcGO: database of domain-centric ontologies on functions, phenotypes, diseases and more. Nucleic Acids Res (PubMed ID: 23161684)
+###################################################################################################################################################################
+#
+#'GroupID' column: group id (by default 'Group' for single group);
+#'GO ID' column: the identifier of ontological terms;
+#'GO term' column: the name of ontological terms;
+#'xxxx (four levels)' column: term specificity (only appear when using slim version of the ontology; 1 for highly general, 2 for general, 3 for specific, and 4 for highly specific);
+#'Z-score' column: Z-score being calculated based on hypergeometric distribution;
+#'P-value' column: P-value being calculated based on hypergeometric distribution;
+#'FDR' column: FDR used to assess the statistical significance of term enrichments;
+#'#Domains (Overlaps|Group|Term|Background)' column: the number of domains, i.e., 'Overlaps' for the number of domains in the input group but also being annotated by the term; 'Group' for the number of domains in the input group (also annotatable by the ontology); 'Term' for the number of domains being annotated by the term; 'Backgroud' for the number of domains that are annotatable by the ontology.
+#'Annotated domains' column: a list of semicolon-separated domains in the input group but also being annotated by the term.
+#
+GroupID	GO ID	GO term	PFAM slim (four levels)	Z-score	P-value	FDR	#Domains (Overlaps|Group|Term|Background)	Annotated domains
+Group	GO:0040011	locomotion	1	4.98	2.10e-05	1.10e-03	19|70|342|3527	PF00041;PF00054;PF00090;PF01064;PF01400;PF02210;PF02931;PF03826;PF03953;PF07647;PF07728;PF08385;PF08393;PF08447;PF08515;PF12774;PF12775;PF12780;PF13426
+Group	GO:0007399	nervous system development	1	4.63	5.08e-05	1.78e-03	20|70|397|3527	PF00041;PF00049;PF00054;PF00090;PF01008;PF01064;PF01369;PF01400;PF01421;PF01431;PF02023;PF02210;PF02931;PF03826;PF03953;PF05649;PF07647;PF08515;PF10600;PF13857
+Group	GO:0051234	establishment of localization	1	4.18	8.17e-05	2.33e-03	30|70|785|3527	PF00041;PF00049;PF00106;PF01064;PF01369;PF01448;PF01590;PF02064;PF02210;PF02828;PF02931;PF03807;PF03953;PF06046;PF07258;PF07647;PF07728;PF08385;PF08393;PF08447;PF08515;PF11933;PF12774;PF12775;PF12780;PF12947;PF13415;PF13418;PF13426;PF13513
+Group	GO:0051674	localization of cell	1	4.63	1.17e-04	2.72e-03	14|70|229|3527	PF00041;PF00054;PF01064;PF02210;PF03826;PF07647;PF07728;PF08385;PF08393;PF08447;PF08515;PF12774;PF12775;PF12780
+Group	GO:0042391	regulation of membrane potential	2	6.12	1.73e-05	1.10e-03	9|70|78|3527	PF00041;PF00355;PF01008;PF01421;PF02023;PF02210;PF02931;PF10600;PF11933
+Group	GO:0007018	microtubule-based movement	2	5.42	1.50e-04	3.15e-03	7|70|60|3527	PF07728;PF08385;PF08393;PF08447;PF12774;PF12775;PF12780
+Group	GO:0051216	cartilage development	2	5.66	1.68e-04	3.21e-03	6|70|43|3527	PF00054;PF01064;PF02210;PF03826;PF08515;PF12045
+Group	GO:0040023	establishment of nucleus localization	3	10.33	8.35e-08	1.75e-05	7|70|21|3527	PF03953;PF07728;PF08385;PF08393;PF12774;PF12775;PF12780
+Group	GO:0001539	ciliary or flagellar motility	3	7.74	8.28e-06	8.70e-04	6|70|26|3527	PF07728;PF08385;PF08393;PF12774;PF12775;PF12780
+Group	GO:0019233	sensory perception of pain	3	8.19	4.23e-05	1.78e-03	4|70|11|3527	PF01431;PF02931;PF05649;PF10600
+Group	GO:0007179	transforming growth factor beta receptor signaling pathway	3	7.45	8.89e-05	2.33e-03	4|70|13|3527	PF00106;PF01064;PF08515;PF12874
