@@ -1,5 +1,5 @@
 ###################################################################################################################################################################
-#Enrichment results using 'Cellular Component from Gene Ontology (GO)', created by dcGO Enrichment at 30/05/2016 16:56:24 (day/month/year hour:min:sec)
+#Enrichment results using 'Cellular Component from Gene Ontology (GO)', created by dcGO Enrichment at 16/06/2016 14:17:21 (day/month/year hour:min:sec)
 #Citation: Fang H, Gough J. (2012) dcGO: database of domain-centric ontologies on functions, phenotypes, diseases and more. Nucleic Acids Res (PubMed ID: 23161684)
 ###################################################################################################################################################################
 #
@@ -14,12 +14,14 @@
 #'Annotated domains' column: a list of semicolon-separated domains in the input group but also being annotated by the term.
 #
 GroupID	GO ID	GO term	PFAM slim (four levels)	Z-score	P-value	FDR	#Domains (Overlaps|Group|Term|Background)	Annotated domains
-Group	GO:0042995	cell projection	1	3.96	4.14e-04	3.31e-03	17|61|314|2675	PF00041;PF01431;PF01590;PF02210;PF02931;PF05649;PF07647;PF07728;PF08385;PF08393;PF10600;PF11933;PF12774;PF12775;PF12780;PF12947;PF13857
-Group	GO:0071944	cell periphery	1	3.42	1.02e-03	6.79e-03	25|61|610|2675	PF00041;PF00106;PF01064;PF01179;PF01301;PF01369;PF02210;PF02828;PF02931;PF03807;PF03953;PF06046;PF07647;PF07654;PF07728;PF08385;PF08393;PF08515;PF10600;PF11933;PF12774;PF12775;PF12780;PF12947;PF13426
-Group	GO:0005875	microtubule associated complex	2	5.24	1.95e-04	2.59e-03	7|61|55|2675	PF00041;PF07728;PF08385;PF08393;PF12774;PF12775;PF12780
-Group	GO:0005874	microtubule	2	5.09	3.94e-04	3.31e-03	6|61|44|2675	PF03953;PF07728;PF08385;PF08393;PF12775;PF12780
-Group	GO:0070160	occluding junction	2	4.87	1.57e-03	7.37e-03	4|61|23|2675	PF01179;PF01369;PF02828;PF10600
-Group	GO:0009986	cell surface	2	3.80	1.66e-03	7.37e-03	9|61|124|2675	PF00041;PF00090;PF01064;PF01179;PF01421;PF02210;PF02931;PF07654;PF12947
-Group	GO:0005858	axonemal dynein complex	3	12.96	8.74e-09	3.49e-07	6|61|9|2675	PF07728;PF08385;PF08393;PF12774;PF12775;PF12780
-Group	GO:0005868	cytoplasmic dynein complex	3	8.76	5.85e-06	1.17e-04	5|61|13|2675	PF07728;PF08385;PF08393;PF12774;PF12780
-Group	GO:0031901	early endosome membrane	3	5.56	1.63e-03	7.37e-03	3|61|11|2675	PF00041;PF07647;PF07654
+Group	GO:0071944	cell periphery	1	4.18	1.01e-04	8.04e-04	23|48|610|2675	PF00041;PF00106;PF01064;PF01179;PF01301;PF01369;PF02210;PF02828;PF02931;PF03953;PF06046;PF07647;PF07654;PF07728;PF08393;PF08515;PF10600;PF11933;PF12774;PF12775;PF12780;PF12947;PF13426
+Group	GO:0042995	cell projection	1	3.33	2.62e-03	7.63e-03	13|48|314|2675	PF00041;PF02210;PF02931;PF07647;PF07728;PF08393;PF10600;PF11933;PF12774;PF12775;PF12780;PF12947;PF13857
+Group	GO:0005875	microtubule associated complex	2	6.17	4.04e-05	4.31e-04	7|48|55|2675	PF00041;PF03645;PF07728;PF08393;PF12774;PF12775;PF12780
+Group	GO:0009986	cell surface	2	4.69	2.67e-04	1.71e-03	9|48|124|2675	PF00041;PF00090;PF01064;PF01179;PF01421;PF02210;PF02931;PF07654;PF12947
+Group	GO:0070160	occluding junction	2	5.66	6.29e-04	2.88e-03	4|48|23|2675	PF01179;PF01369;PF02828;PF10600
+Group	GO:0005887	integral to plasma membrane	2	4.42	6.05e-04	2.88e-03	8|48|110|2675	PF00041;PF01064;PF02210;PF02931;PF07647;PF08515;PF11933;PF13426
+Group	GO:0005874	microtubule	2	4.82	9.66e-04	3.44e-03	5|48|44|2675	PF03953;PF07728;PF08393;PF12775;PF12780
+Group	GO:0005858	axonemal dynein complex	3	12.17	1.80e-07	5.75e-06	5|48|9|2675	PF07728;PF08393;PF12774;PF12775;PF12780
+Group	GO:0005868	cytoplasmic dynein complex	3	9.98	1.74e-06	2.78e-05	5|48|13|2675	PF03645;PF07728;PF08393;PF12774;PF12780
+Group	GO:0031901	early endosome membrane	3	6.38	8.09e-04	3.24e-03	3|48|11|2675	PF00041;PF07647;PF07654
+Group	GO:0005923	tight junction	3	5.33	2.12e-03	6.79e-03	3|48|15|2675	PF01179;PF01369;PF10600
