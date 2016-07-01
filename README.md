@@ -11,8 +11,9 @@
 * [Whole-exome sequencing gene analysis](mutations/wes_genes.ipynb)
 * [Whole-exome sequencing domain analysis](mutations/wes_pfam.ipynb)
 * [Whole-genome sequencing gene analysis](mutations/wgs_genes.ipynb)
+* [Mutual exclusion: comet](mutations/me_comet.ipynb)
 
 ## Structure
 
 * [Pfam domains](structural_analysis/pfam_switches.ipynb)
-* [ProSite features](structural_analysis/prosite_switches.ipynb)
+* [Protein-protein interactions](structural_analysis/ppi.ipynb)
