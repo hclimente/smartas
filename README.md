@@ -3,6 +3,7 @@
 ## Switches
 
 * [Stats](switches/switches_stats.ipynb)
+* [Immune cells/stroma contamination](switches/immune_analysis.ipynb)
 * [Functionality](functionals.ipynb)
 * [Potential tumorigenic switches](potus.ipynb)
 
