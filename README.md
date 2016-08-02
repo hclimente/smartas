@@ -1,5 +1,7 @@
 # SmartAS
 
+* [Manuscript figures]
+
 ## Switches
 
 * [Switch statistics](switches/switches_stats.ipynb)
