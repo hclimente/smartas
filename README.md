@@ -1,6 +1,6 @@
 # SmartAS
 
-* [Manuscript figures]
+* [Manuscript figures](switches/figures.ipynb)
 
 ## Switches
 
