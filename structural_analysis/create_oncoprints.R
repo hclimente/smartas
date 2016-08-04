@@ -22,7 +22,7 @@ wes <- read_tsv("~/smartas/notebook/data/mutations/wes_mutations.txt") %>%
   unique
 
 # read interactions
-ppi.file <- "~/smartas/notebook/data/structural_analysis/Switched_interactions_consensus.txt"
+ppi.file <- "~/smartas/notebook/data/eporta/raw_tables/Switched_interactions_consensus.txt"
 
 ## get max number of columns (necessary for reading)
 no_col <- max(count.fields(ppi.file,sep = "\t"))
@@ -120,5 +120,8 @@ for (x in unique(drivers$Symbol) ) {
   
   suppressWarnings( p <- p + scale_fill_manual(values = plot.colors) )
   
-  ggsave(paste0("~/smartas/notebook/results/oncoprints/",x,".png"),p, width = 10, height = 10)
+  genesOncoprint <- unique(affected.long$Symbol)
+  name <- paste(length(genesOncoprint),x,paste(setdiff(genesOncoprint,x),collapse="."),"png",sep=".")
+  
+  ggsave(paste0("~/smartas/notebook/results/oncoprints/",name),p, width = 10, height = 10)
 }
