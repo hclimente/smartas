@@ -1,4 +1,4 @@
-Cancer	Gene	Symbol	Transcript	TPM	ProteinLength	asEvidence
+Tumor	GeneId	Symbol	Transcript	TPM	ProteinLength	asEvidence
 brca	80008	TMEM156	uc003gto.2	0.0	296	True
 brca	80008	TMEM156	uc010ifj.2	0.428082051634039	295	True
 brca	4637	MYL6	uc001sjx.1	546.769317715651	151	True

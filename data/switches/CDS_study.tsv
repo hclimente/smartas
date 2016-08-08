@@ -1,4 +1,4 @@
-Cancer	Analysis	Both	Only_nIso	Only_tIso	None	Random_Both	Random_Only_nIso	Random_Only_tIso	Random_None
+Tumor	Analysis	Both	Only_nIso	Only_tIso	None	Random_Both	Random_Only_nIso	Random_Only_tIso	Random_None
 brca	CDS_study	1512.0	144.0	51.0	37.0	145193.0	20350.0	4780.0	4077.0
 coad	CDS_study	1382.0	130.0	31.0	40.0	132698.0	18311.0	4096.0	3195.0
 hnsc	CDS_study	2614.0	303.0	46.0	47.0	254229.0	34382.0	6948.0	5441.0
