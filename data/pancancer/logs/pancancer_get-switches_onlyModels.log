@@ -1,5 +1,5 @@
-07-27 16:16 root         INFO     SmartAS - Finding significant AS events
-07-27 16:16 root         INFO     Hector Climente - GRIB 2014-2015
-07-27 16:16 utils        DEBUG    Rscript pipeline/methods/pancancer_calculate_switches.R candidateList_info
-07-27 16:16 utils        DEBUG    Rscript pipeline/methods/pancancer_calculate_switches.R random.candidateList_info
-07-27 16:17 root         INFO     SmartAS will close.
+08-09 17:13 root         INFO     SmartAS - Finding significant AS events
+08-09 17:13 root         INFO     Hector Climente - GRIB 2014-2015
+08-09 17:13 utils        DEBUG    Rscript pipeline/methods/pancancer_calculate_switches.R candidateList_info
+08-09 17:14 utils        DEBUG    Rscript pipeline/methods/pancancer_calculate_switches.R random.candidateList_info
+08-09 17:15 root         INFO     SmartAS will close.
