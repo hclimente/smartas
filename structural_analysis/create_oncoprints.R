@@ -4,9 +4,10 @@ source("~/wisdom/r/clean_theme.R")
 library(find.me)
 
 switches.split <- "~/smartas/notebook/data/pancancer/candidateList_full.tumorSplit.tsv" %>%
-  read_tsv
+  read_tsv %>%
+  filter(Reliable==1 & Origin=="Tumor")
 switches <- read_tsv("~/smartas/notebook/data/pancancer/candidateList_full.tsv") %>%
-  filter(Reliable==1)
+  filter(Reliable==1 & Origin=="Tumor")
 
 drivers.file <- "~/smartas/notebook/data/intogen_cancer_drivers-2014.12b/Mutational_drivers_per_tumor_type.tsv"
 drivers <-  read_tsv(drivers.file, comment="#") %>%
@@ -120,7 +121,7 @@ for (x in unique(drivers$Symbol) ) {
   
   plot.colors <- c(colorPalette, "amp" = "firebrick", "del" = "blue", "up" = NA, 
                    "down" = NA, "splicing" = "forestgreen", "germline" = "purple",
-                   "somatic" = "#36454F", "Mut+" = "firebrick", "Mut-" = "gray80", 
+                   "somatic" = "#36454F", "Mut+" = "black", "Mut-" = "gray80", 
                    "MutUnknown"="white")
   
   patients <- affected.long %>% 
@@ -135,15 +136,17 @@ for (x in unique(drivers$Symbol) ) {
   affected.wide <- affected.wide[c(x,setdiff(rownames(sorted.matrix$mutmat),x)),]
   
   p <- oncoprint(affected.wide, sortGenes=FALSE) + 
-    geom_tile(data=patients, aes(x=Patient,y=ngenes+1,fill=Tumor), height=0.3) +
+    geom_tile(data=patients, aes(x=Patient,y=ngenes+.75,fill=Tumor), height=0.3) +
     geom_tile(data=patients, 
-              aes(x=Patient, y=ngenes+.75, fill=as.character(Pannegative)), height=0.1) +
+              aes(x=Patient, y=ngenes+.55, fill=as.character(Pannegative)), height=0.1) +
     labs(title=x, x="") + 
     clean_theme() +
-    theme(axis.text.x=element_blank())
-  
+    theme(axis.text.x=element_blank(), 
+          # remove grid 
+          panel.grid.major = element_blank(), panel.grid.minor = element_blank())
+
   suppressWarnings( p <- p + scale_fill_manual(values = plot.colors) )
-  
+  p
   genesOncoprint <- unique(affected.long$Symbol)
   name <- paste(length(genesOncoprint),x,paste(setdiff(genesOncoprint,x),collapse="."),"png",sep=".")
   
