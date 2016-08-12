@@ -1,5 +1,5 @@
 ###################################################################################################################################################################
-#Enrichment results using 'Molecular Function from Gene Ontology (GO)', created by dcGO Enrichment at 16/06/2016 14:17:22 (day/month/year hour:min:sec)
+#Enrichment results using 'Molecular Function from Gene Ontology (GO)', created by dcGO Enrichment at 12/08/2016 14:15:22 (day/month/year hour:min:sec)
 #Citation: Fang H, Gough J. (2012) dcGO: database of domain-centric ontologies on functions, phenotypes, diseases and more. Nucleic Acids Res (PubMed ID: 23161684)
 ###################################################################################################################################################################
 #
@@ -14,9 +14,15 @@
 #'Annotated domains' column: a list of semicolon-separated domains in the input group but also being annotated by the term.
 #
 GroupID	GO ID	GO term	PFAM slim (four levels)	Z-score	P-value	FDR	#Domains (Overlaps|Group|Term|Background)	Annotated domains
-Group	GO:0004872	receptor activity	1	5.38	2.53e-05	3.80e-04	12|48|174|2762	PF00041;PF00090;PF00106;PF01064;PF01179;PF02210;PF02931;PF07647;PF07654;PF08447;PF08515;PF13426
-Group	GO:0060089	molecular transducer activity	1	4.22	5.57e-04	3.34e-03	10|48|172|2762	PF00041;PF00090;PF00106;PF01064;PF02931;PF07647;PF07654;PF08447;PF08515;PF13426
-Group	GO:0003774	motor activity	2	6.05	1.82e-04	1.36e-03	5|48|32|2762	PF07728;PF08393;PF12774;PF12775;PF12780
-Group	GO:0032403	protein complex binding	2	5.30	1.75e-04	1.36e-03	7|48|71|2762	PF00041;PF00049;PF00090;PF01064;PF01179;PF01421;PF08515
-Group	GO:0019199	transmembrane receptor protein kinase activity	2	4.89	1.58e-03	7.90e-03	4|48|30|2762	PF00041;PF01064;PF07647;PF08515
-Group	GO:0003777	microtubule motor activity	3	10.15	1.49e-06	4.46e-05	5|48|13|2762	PF07728;PF08393;PF12774;PF12775;PF12780
+Group	GO:0004872	receptor activity	1	4.61	1.95e-04	1.14e-03	11|50|174|2762	PF00041;PF00090;PF00102;PF00106;PF01179;PF01391;PF01462;PF02210;PF02931;PF08447;PF13426
+Group	GO:0060089	molecular transducer activity	1	3.48	3.11e-03	8.44e-03	9|50|172|2762	PF00041;PF00090;PF00102;PF00106;PF00249;PF01462;PF02931;PF08447;PF13426
+Group	GO:0016787	hydrolase activity	1	3.04	3.22e-03	8.44e-03	21|50|659|2762	PF00041;PF00090;PF00102;PF00200;PF00249;PF00383;PF01301;PF01400;PF01421;PF01448;PF02037;PF07728;PF08393;PF08516;PF09279;PF12774;PF12775;PF12780;PF13242;PF13426;PF13638
+Group	GO:0008237	metallopeptidase activity	2	6.62	3.93e-05	4.06e-04	6|50|37|2762	PF00090;PF00200;PF00249;PF01400;PF01421;PF08516
+Group	GO:0032403	protein complex binding	2	6.05	2.90e-05	4.06e-04	8|50|71|2762	PF00041;PF00049;PF00090;PF00200;PF01179;PF01391;PF01421;PF08516
+Group	GO:0005102	receptor binding	2	4.92	7.67e-05	5.95e-04	12|50|186|2762	PF00041;PF00049;PF00090;PF00200;PF00249;PF00625;PF01391;PF01421;PF01462;PF02210;PF08447;PF08516
+Group	GO:0003774	motor activity	2	5.89	2.21e-04	1.14e-03	5|50|32|2762	PF07728;PF08393;PF12774;PF12775;PF12780
+Group	GO:0046914	transition metal ion binding	2	4.44	3.58e-04	1.58e-03	10|50|156|2762	PF00096;PF00200;PF00383;PF01179;PF01421;PF04116;PF05485;PF07258;PF08516;PF13242
+Group	GO:0008201	heparin binding	2	5.48	7.74e-04	3.00e-03	4|50|24|2762	PF00041;PF00090;PF01179;PF01391
+Group	GO:0050839	cell adhesion molecule binding	2	4.76	1.84e-03	6.34e-03	4|50|30|2762	PF00041;PF00102;PF00625;PF02210
+Group	GO:0019900	kinase binding	2	3.98	3.27e-03	8.44e-03	5|50|57|2762	PF00041;PF00102;PF00200;PF00625;PF02210
+Group	GO:0003777	microtubule motor activity	3	9.93	1.83e-06	5.68e-05	5|50|13|2762	PF07728;PF08393;PF12774;PF12775;PF12780
