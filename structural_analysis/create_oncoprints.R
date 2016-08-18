@@ -1,7 +1,6 @@
 source("~/smartas/notebook/data/env/variables.R")
+source("~/smartas/notebook/data/env/getOncoprint.R")
 source("~/wisdom/r/data_analysis_environment.R")
-source("~/wisdom/r/clean_theme.R")
-library(find.me)
 
 switches.split <- "~/smartas/notebook/data/pancancer/candidateList_full.tumorSplit.tsv" %>%
   read_tsv %>%
@@ -119,21 +118,21 @@ for (x in unique(drivers$Symbol) ) {
   affected.wide <- affected.wide[, !colnames(affected.wide) %in% c("Tumor","Symbol")]
   affected.wide <- affected.wide[,colSums(affected.wide=="") < nrow(affected.wide)]
   
-  plot.colors <- c(colorPalette, "amp" = "firebrick", "del" = "blue", "up" = NA, 
-                   "down" = NA, "splicing" = "forestgreen", "germline" = "purple",
-                   "somatic" = "#36454F", "Mut+" = "black", "Mut-" = "gray80", 
-                   "MutUnknown"="white")
-  
   patients <- affected.long %>% 
     select(Tumor,Patient) %>%
     unique %>%
     merge(pannegative,all.x=T) %>%
     mutate(Pannegative = ifelse(is.na(Pannegative), "MutUnknown", Pannegative))
   
-  ngenes <- nrow(affected.wide)
-  
   sorted.matrix <- getSortedMatrix(affected.wide)
   affected.wide <- affected.wide[c(x,setdiff(rownames(sorted.matrix$mutmat),x)),]
+  
+  ngenes <- nrow(affected.wide)
+  
+  plot.colors <- c(colorPalette, "amp" = "firebrick", "del" = "blue", "up" = NA, 
+                   "down" = NA, "splicing" = "forestgreen", "germline" = "purple",
+                   "somatic" = "#36454F", "Mut+" = "black", "Mut-" = "gray80", 
+                   "MutUnknown"="white")
   
   p <- oncoprint(affected.wide, sortGenes=FALSE) + 
     geom_tile(data=patients, aes(x=Patient,y=ngenes+.75,fill=Tumor), height=0.3) +
@@ -144,11 +143,10 @@ for (x in unique(drivers$Symbol) ) {
     theme(axis.text.x=element_blank(), 
           # remove grid 
           panel.grid.major = element_blank(), panel.grid.minor = element_blank())
-
-  suppressWarnings( p <- p + scale_fill_manual(values = plot.colors) )
-  p
-  genesOncoprint <- unique(affected.long$Symbol)
-  name <- paste(length(genesOncoprint),x,paste(setdiff(genesOncoprint,x),collapse="."),"png",sep=".")
   
+  suppressWarnings( p <- p + scale_fill_manual(values = plot.colors) )
+  genesOncoprint <- unique(affected.long$Symbol)
+  
+  name <- paste(length(genesOncoprint),x,paste(setdiff(genesOncoprint,x),collapse="."),"png",sep=".")
   ggsave(paste0("~/smartas/notebook/results/oncoprints/",name),p, width = 10, height = 10)
 }
