@@ -2,7 +2,7 @@ getAffected <- function(genes,swt,muts){
   
   # if present, add switches in the target gene
   affectedSwitches <- swt %>%
-    filter(GeneId %in% genes & IsFunctional==1) %>%
+    filter(Symbol %in% genes & IsFunctional==1) %>%
     select(Tumor,Symbol,Patients_affected,PatientNumber) %>%
     mutate(What="Switch")
   
@@ -25,7 +25,7 @@ getAffected <- function(genes,swt,muts){
     mutate(Alteration = "SPLICING")
   
   affectedMutations.long <- muts %>%
-    filter(GeneId %in% genes) %>%
+    filter(Symbol %in% genes) %>%
     mutate(Alteration2 = "MUT")
   
   affected.long <- merge(affectedSwitches.long, affectedMutations.long,all=T) %>%
