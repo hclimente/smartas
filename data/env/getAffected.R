@@ -3,7 +3,7 @@ getAffected <- function(genes,swt,muts){
   # if present, add switches in the target gene
   affectedSwitches <- swt %>%
     filter(Symbol %in% genes & IsFunctional==1) %>%
-    select(Tumor,Symbol,Patients_affected,PatientNumber) %>%
+    select(Tumor,Symbol,Patients_affected,PatientNumber,Domains) %>%
     mutate(What="Switch")
   
   suppressWarnings( nocols <- max(affectedSwitches$PatientNumber) )
@@ -17,12 +17,14 @@ getAffected <- function(genes,swt,muts){
   )
   
   affectedSwitches.long <- affectedSwitches.long %>%
-    select(Symbol,Tumor,What,starts_with("Patient_")) %>%
-    melt(id.vars = c("Symbol","Tumor","What")) %>%
+    select(Symbol,Tumor,Domains,What,starts_with("Patient_")) %>%
+    melt(id.vars = c("Symbol","Tumor","Domains","What")) %>%
     select(-variable) %>%
-    set_colnames(c("Symbol","Tumor","What","Patient")) %>%
+    set_colnames(c("Symbol","Tumor","Domains","What","Patient")) %>%
     filter(!is.na(Patient)) %>%
-    mutate(Alteration = "SPLICING")
+    mutate(Alteration = "DOWN",
+           Alteration = ifelse(!is.na(Domains) & Domains == "Lost_in_tumor", "AMP", Alteration),
+           Alteration = ifelse(!is.na(Domains) & Domains == "Gained_in_tumor", "HOMDEL", Alteration))
   
   affectedMutations.long <- muts %>%
     filter(Symbol %in% genes) %>%
