@@ -21,3 +21,4 @@
 * [Pfam domains](structural_analysis/pfam_switches.ipynb)
 * [Protein-protein interactions](structural_analysis/ppi.ipynb)
 * [Protein-protein interactions mutual exclusion](structural_analysis/ppi_me.ipynb)
+* [Protein-protein interactions neighborhoods](structural_analysis/ppi_neighborhoods.ipynb)
