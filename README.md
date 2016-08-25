@@ -2,6 +2,7 @@
 
 * [Manuscript figures](switches/figures.ipynb)
 * [Manuscript supplementary figures](switches/sup_figures.ipynb)
+* [Manuscript supplementary files](switches/sup_files.ipynb)
 
 ## Switches
 
