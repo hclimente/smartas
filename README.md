@@ -1,4 +1,4 @@
-Jupyter notebook for the smartAS project. The aim of the project is the identification of alternative splicing alterations with potential to act as tumor drivers.
+Jupyter notebook for the smartAS project. The aim of the project is the identification of alternative splicing alterations with potential to act as tumor drivers. A preprint of this work is available [here](http://biorxiv.org/content/early/2016/09/21/076653).
 
 # Analyses
 
