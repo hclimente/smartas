@@ -19,6 +19,7 @@ Jupyter notebook for the smartAS project. The aim of the project is the identifi
 
 * [Whole-exome sequencing gene analysis](mutations/wes_genes.ipynb)
 * [Whole-genome sequencing gene analysis](mutations/wgs_genes.ipynb)
+* [CNA analysis](mutations/cna.ipynb)
 * [Mutual exclusion: comet](mutations/me_comet.ipynb)
 
 ## Structure
