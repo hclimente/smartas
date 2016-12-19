@@ -1,4 +1,5 @@
-07-14 17:43 root         INFO     SmartAS - Finding significant AS events
-07-14 17:43 root         INFO     Hector Climente - GRIB 2014-2015
-07-14 17:43 utils        DEBUG    Rscript pipeline/methods/recurrence_analysis.R /data/users/hector/smartas/analyses/pancancer/candidateList_info.agg.tsv /data/users/hector/smartas/analyses/pancancer/candidateList_recurrence.tsv
-07-14 17:44 root         INFO     SmartAS will close.
+12-19 16:12 root         INFO     SmartAS - Finding significant AS events
+12-19 16:12 root         INFO     Hector Climente - GRIB 2014-2015
+12-19 16:12 utils        DEBUG    Rscript pipeline/methods/get_switch_origin.R
+12-19 16:12 utils        DEBUG    Rscript pipeline/methods/recurrence_analysis.R /data/users/hector/smartas/analyses/pancancer/candidateList_info.agg.tsv /data/users/hector/smartas/analyses/pancancer/candidateList.origin.tsv /data/users/hector/smartas/analyses/pancancer/candidateList_recurrence.tsv
+12-19 16:14 root         INFO     SmartAS will close.
