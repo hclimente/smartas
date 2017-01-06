@@ -14,6 +14,7 @@ Jupyter notebook for the smartAS project. The aim of the project is the identifi
 * [Immune cells/stroma contamination](switches/immune_analysis.ipynb)
 * [Functionality](switches/functionals.ipynb)
 * [Tumorigenic evidences](switches/potus.ipynb)
+* [Events involved](switches/splicing_events.ipynb)
 
 ## Mutations
 
