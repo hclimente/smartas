@@ -15,6 +15,7 @@ Jupyter notebook for the smartAS project. The aim of the project is the identifi
 * [Functionality](switches/functionals.ipynb)
 * [Tumorigenic evidences](switches/potus.ipynb)
 * [Events involved](switches/splicing_events.ipynb)
+* [PSI study](switches/psi_study.ipynb)
 
 ## Mutations
 
