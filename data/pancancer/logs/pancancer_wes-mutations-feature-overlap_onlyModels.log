@@ -1,6 +1,0 @@
-07-18 17:19 root         INFO     SmartAS - Finding significant AS events
-07-18 17:19 root         INFO     Hector Climente - GRIB 2014-2015
-07-18 17:19 utils        DEBUG    mkdir -p /data/users/hector/smartas/analyses/pancancer/structural_analysis
-07-18 17:19 utils        DEBUG    mkdir -p /data/users/hector/smartas/analyses/pancancer/mutations
-07-18 17:19 utils        DEBUG    Rscript pipeline/methods/pancancer_mutated_features_analysis.R
-07-18 17:21 root         INFO     SmartAS will close.

@@ -1,7 +1,0 @@
-07-22 16:32 root         INFO     SmartAS - Finding significant AS events
-07-22 16:32 root         INFO     Hector Climente - GRIB 2014-2015
-07-22 16:32 utils        DEBUG    rm -r /data/users/hector/smartas/analyses/pancancer/ppi
-07-22 16:32 utils        DEBUG    mkdir -p /data/users/hector/smartas/analyses/pancancer/ppi
-07-22 16:32 methods.me_ppi INFO     Calculating proportion of pannegative.
-07-22 16:32 utils        DEBUG    Rscript pipeline/methods/me_ppi.R /data/users/hector/smartas/ /data/users/hector/smartas/analyses/pancancer/
-07-22 16:35 root         INFO     SmartAS will close.
