@@ -1,0 +1,3 @@
+[submodule "wisdom"]
+	path = wisdom
+	url = ssh://git@github.com/hclimente/wisdom.git
