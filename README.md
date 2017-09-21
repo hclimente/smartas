@@ -1,8 +1,6 @@
-We studied the functional impact of alternative splicing alterations in cancer, with special interest on their potential as tumor drivers. 
+We studied the functional impact of alternative splicing alterations in cancer, with special interest on their potential as tumor drivers. The article is available in [Cell Reports](http://www.cell.com/cell-reports/abstract/S2211-1247(17)31104-X).
 
 ![Graphical abstract](graphical_abstract.png)
-
-A preprint of this work is available [here](http://www.biorxiv.org/content/early/2017/04/19/076653).
 
 # Analyses
 
